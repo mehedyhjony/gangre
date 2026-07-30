@@ -1,7 +1,20 @@
+# Netlify configuration file
+
 [build]
-  base = "gangre"
+  base = "gangre"          # Project folder
+  command = "bun run build" # Or "npm run build" if you use npm
+  publish = "gangre/dist"   # Build output folder
+
+[functions]
+  directory = "gangre/netlify/functions" # Optional, only if you use Netlify Functions
+
+[context.production.environment]
+  NODE_VERSION = "24"       # Node.js version for production builds
+
+[context.deploy-preview]
   command = "bun run build"
   publish = "gangre/dist"
 
-[functions]
-  directory = "gangre/netlify/functions"
+[context.branch-deploy]
+  command = "bun run build"
+  publish = "gangre/dist"
