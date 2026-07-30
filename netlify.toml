@@ -1,7 +1,6 @@
 # Netlify configuration file
 
 [build]
-  base = "gangre"          # Project folder
   command = "bun run build" # Or "npm run build" if you use npm
   publish = "gangre/dist"   # Build output folder
 
