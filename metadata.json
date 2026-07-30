@@ -1,0 +1,6 @@
+{
+  "name": "গাংরে — ভাঙা মোবাইল কিনি",
+  "description": "গাংরে — পুরনো এবং ভাঙা মোবাইল ফোন বিক্রির বিশ্বস্ত মাধ্যম। সঠিক মূল্য, ফ্রি পিকআপ ও তাৎক্ষণিক ক্যাশ পেমেন্ট।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
