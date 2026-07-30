@@ -2,7 +2,7 @@
 
 [build]
   command = "bun run build" # Or "npm run build" if you use npm
-  publish = "gangre/dist"   # Build output folder
+  publish = "dist"   # Build output folder
 
 [functions]
   directory = "gangre/netlify/functions" # Optional, only if you use Netlify Functions
@@ -12,8 +12,8 @@
 
 [context.deploy-preview]
   command = "bun run build"
-  publish = "gangre/dist"
+  publish = "dist"
 
 [context.branch-deploy]
   command = "bun run build"
-  publish = "gangre/dist"
+  publish = "dist"
