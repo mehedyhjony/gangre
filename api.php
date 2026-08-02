@@ -11,9 +11,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 // --- Configuration ---
 // EDIT THESE WITH YOUR ACTUAL DATABASE DETAILS IN CPANEL
 $db_host = 'localhost';
-$db_user = 'REPLACE_WITH_YOUR_DB_USER';
-$db_pass = 'REPLACE_WITH_YOUR_DB_PASS';
-$db_name = 'REPLACE_WITH_YOUR_DB_NAME';
+$db_user = 'gangrebd_jack';
+$db_pass = 'gangresumon1234';
+$db_name = 'gangrebd_gangre_db_app';
 
 // Admin Credentials
 $admin_user = "admin";
