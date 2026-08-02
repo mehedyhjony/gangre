@@ -1,5 +1,4 @@
-# Netlify Hosting Guide
-1. Export to GitHub via AI Studio Settings.
+1. go netifly
 2. Connect Repo to Netlify.
 3. Build Command: `npm run build:frontend`
 4. Publish Directory: `dist`
